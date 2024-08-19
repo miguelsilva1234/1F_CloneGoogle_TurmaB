@@ -17,14 +17,91 @@ body{
     flex-direction: column;
 }
 header{
-    background-color: red;
+    background: #fff;
     height: 60px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
 }
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #585a5b;
+}
+
+.btn{
+    background: #1a73e8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+.bnt-cinza{
+    text-decoration: none;
+    background: #f8f9fa;
+    padding: 8px 15px 8px 15px;
+    color: #484e51;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.link2{
+    color: #e70404;
+}
+
+ion-icon {
+    font-size: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+ion-cover:hover {
+    background: rgb(0, 17, 255);
+    border-radius: 20px;
+
+}
+
 main{
-    background-color: yellow;
+    background-color: white;
     flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.pesquisa{
+    margin: 10px;
+    height: 40px;
+    min-width: 30vw;
+    max-width: 60vw;
+    border-radius: 10px; 
+    border:  1px solid #dcdcdc;
+}
+
+.pesquisa:hover {
+    box-shadow: 2px 0px 5px 1px rgb(0, 0, 0, 0.2);
+}
+
 footer{
-    background-color: green;
+    background: #F2f2f2;
     height: 60px;
+    color: #687682;
+    border-bottom: 1px solid #dddfe3;
+    font-size: 18px;
+    padding-left: 18px;
+
+    display: flex;
+    align-items: center;
 }
